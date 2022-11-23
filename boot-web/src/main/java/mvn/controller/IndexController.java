@@ -15,7 +15,7 @@ public class IndexController {
     @RequestMapping("/")
     public String index(){
         log.info("---");
-        log.info("---");
+        log.info("-test--");
         return "hello";
     }
 }
